@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "769FE3E9-0BAE-4187-BC3D-DA85639CA0B2",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Advent Of Code.xcodeproj",
+        "identifier" : "F1C50964257D455000FABDA2",
+        "name" : "Tests"
+      }
+    }
+  ],
+  "version" : 1
+}
