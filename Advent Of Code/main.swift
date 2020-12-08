@@ -22,5 +22,12 @@ import Foundation
 //print("\nDay 5 \n ========== ")
 //day5()
 
-print("\nDay 6 \n ========== ")
-day6()
+//print("\nDay 6 \n ========== ")
+//day6()
+
+//print("\nDay 7 \n ========== ")
+//day7()
+
+print("\nDay 8 \n ========== ")
+Day8().run()
+
