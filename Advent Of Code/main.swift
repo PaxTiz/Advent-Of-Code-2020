@@ -26,8 +26,10 @@ import Foundation
 //day6()
 
 //print("\nDay 7 \n ========== ")
-//day7()
+//Day7().run()
 
-print("\nDay 8 \n ========== ")
-Day8().run()
+//print("\nDay 8 \n ========== ")
+//Day8().run()
 
+print("\nDay 9 \n ========== ")
+Day9().run()

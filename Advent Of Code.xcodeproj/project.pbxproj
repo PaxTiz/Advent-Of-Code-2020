@@ -13,6 +13,10 @@
 		F124D694258017AD00B72449 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = F124D6902580166000B72449 /* Day.swift */; };
 		F124D69F2580194D00B72449 /* day8.swift in Sources */ = {isa = PBXBuildFile; fileRef = F158A971257FCA380076BFCB /* day8.swift */; };
 		F124D6A22580194E00B72449 /* day8.swift in Sources */ = {isa = PBXBuildFile; fileRef = F158A971257FCA380076BFCB /* day8.swift */; };
+		F124D6A825801DA800B72449 /* day9.swift in Sources */ = {isa = PBXBuildFile; fileRef = F124D6A725801DA800B72449 /* day9.swift */; };
+		F124D6A925801DA800B72449 /* day9.swift in Sources */ = {isa = PBXBuildFile; fileRef = F124D6A725801DA800B72449 /* day9.swift */; };
+		F124D6B525801F3E00B72449 /* day7.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C50978257E5B8800FABDA2 /* day7.swift */; };
+		F1374E6C258121EB0030714B /* Day9Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1374E6B258121EB0030714B /* Day9Tests.swift */; };
 		F1567C8B257C1D6100C531EF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1567C8A257C1D6100C531EF /* main.swift */; };
 		F1567C93257C1DD800C531EF /* day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1567C92257C1DD800C531EF /* day1.swift */; };
 		F1567C96257C21E600C531EF /* day2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1567C95257C21E600C531EF /* day2.swift */; };
@@ -41,6 +45,8 @@
 		F124D683258013EE00B72449 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F124D689258013FD00B72449 /* Day8Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day8Tests.swift; sourceTree = "<group>"; };
 		F124D6902580166000B72449 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		F124D6A725801DA800B72449 /* day9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day9.swift; sourceTree = "<group>"; };
+		F1374E6B258121EB0030714B /* Day9Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day9Tests.swift; sourceTree = "<group>"; };
 		F1567C87257C1D6100C531EF /* Advent Of Code */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Advent Of Code"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1567C8A257C1D6100C531EF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F1567C92257C1DD800C531EF /* day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day1.swift; sourceTree = "<group>"; };
@@ -74,6 +80,7 @@
 		F124D680258013EE00B72449 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				F1374E6B258121EB0030714B /* Day9Tests.swift */,
 				F124D689258013FD00B72449 /* Day8Tests.swift */,
 				F124D681258013EE00B72449 /* Tests.swift */,
 				F124D683258013EE00B72449 /* Info.plist */,
@@ -112,6 +119,7 @@
 				F1C50978257E5B8800FABDA2 /* day7.swift */,
 				F158A971257FCA380076BFCB /* day8.swift */,
 				F124D6902580166000B72449 /* Day.swift */,
+				F124D6A725801DA800B72449 /* day9.swift */,
 			);
 			path = "Advent Of Code";
 			sourceTree = "<group>";
@@ -204,9 +212,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F124D6B525801F3E00B72449 /* day7.swift in Sources */,
 				F124D682258013EE00B72449 /* Tests.swift in Sources */,
 				F124D694258017AD00B72449 /* Day.swift in Sources */,
 				F124D68A258013FD00B72449 /* Day8Tests.swift in Sources */,
+				F124D6A925801DA800B72449 /* day9.swift in Sources */,
+				F1374E6C258121EB0030714B /* Day9Tests.swift in Sources */,
 				F124D69F2580194D00B72449 /* day8.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,6 +231,7 @@
 				F1C50979257E5B8800FABDA2 /* day7.swift in Sources */,
 				F124D6A22580194E00B72449 /* day8.swift in Sources */,
 				F1567C99257C30A300C531EF /* day3.swift in Sources */,
+				F124D6A825801DA800B72449 /* day9.swift in Sources */,
 				F1C50953257D3C6200FABDA2 /* day6.swift in Sources */,
 				F1567CA5257C489500C531EF /* day4.swift in Sources */,
 				F1567CA8257C6FA100C531EF /* day5.swift in Sources */,
